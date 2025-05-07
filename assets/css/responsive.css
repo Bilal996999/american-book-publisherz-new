@@ -441,4 +441,10 @@
     .bottom-footer .theme-para {
         display: none;
     }
+    .modal-body .hero-form {
+        padding: 40px 22px 40px 22px !important;
+    }
+    .modal-dialog.modal-dialog-centered {
+        width: 96% !important;
+    }
 }
