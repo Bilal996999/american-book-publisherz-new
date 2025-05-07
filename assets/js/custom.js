@@ -13,12 +13,20 @@ $('.logos-sliders').slick({
     centerPadding:"290px",
     cssEase: 'linear',
     responsive: [
+        {
+        breakpoint: 1660,
+        settings: {
+            slidesToShow: 5,
+            slidesToScroll: 1,
+            centerPadding:"200px",
+        }
+        },
       {
         breakpoint: 1398,
         settings: {
           slidesToShow: 5,
           slidesToScroll: 1,
-          centerPadding:"190px",
+          centerPadding:"160px",
         }
       },
       {
@@ -34,7 +42,7 @@ $('.logos-sliders').slick({
         settings: {
           slidesToShow: 4,
           slidesToScroll: 1,
-          centerPadding:"90px",
+          centerPadding:"80px",
         }
       },
       {
@@ -56,9 +64,9 @@ $('.logos-sliders').slick({
       {
         breakpoint: 450,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
           slidesToScroll: 1,
-          centerPadding:"20px",
+          centerPadding:"40px",
         }
       }
       // You can unslick at a given breakpoint now by adding:
