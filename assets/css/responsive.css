@@ -17,6 +17,18 @@
     .bi-book-resonate .theme-para {
         font-size: 17px;
     }
+    .testimonial-content {
+        padding-left: 0;
+    }
+    .testimonial-img {
+        padding: 0px 40px 0 60px;
+    }
+    .testimonial-content .theme-para {
+        font-size: 18px;
+    }
+    .slick-arrow {
+        bottom: 30px;
+    }
 }
 @media(max-width: 1199px){
     .hero-content h1 {
@@ -74,6 +86,37 @@
     }
     .bi-book-resonate {
         padding: 25px 0 15px;
+    }
+    .pack-name {
+        font-size: 18px;
+    }
+    .pack-price {
+        font-size: 28px;
+    }
+    .pack-para {
+        font-size: 15px;
+    }
+    .pack-list {
+        font-size: 16px;
+    }
+    .order-btn {
+        font-size: 14px;
+        padding: 10px 22px;
+    }
+    .bi-packages {
+        padding: 90px 0;
+    }
+    .bi-cta {
+        padding: 60px 0;
+    }
+    .bi-testimonial {
+        padding: 70px 0;
+    }
+    .testimonial-content .theme-para {
+        font-size: 16px;
+    }
+    .testimonial-wrapper {
+        gap: 15px !important;
     }
 }
 @media(max-width: 991px){
@@ -142,6 +185,45 @@
     .bi-book-resonate .img-wrapper img {
         margin-top: 0;
     }
+    .bi-packages {
+        padding: 55px 0;
+    }
+    .bi-packages .col-12 {
+        width: 100%;
+    }
+    .package-wrapper {
+        margin-bottom: 40px;
+    }
+    .bi-packages .row {
+        margin-top: 30px;
+    }
+    .testimonial-img {
+        padding: 0px 20px 0 20px;
+    }
+    .testimonial-content .theme-para {
+        font-size: 15px;
+    }
+    .testimonial-content h4 {
+        font-size: 16px;
+    }
+    .slick-arrow {
+        padding: 12px 10px;
+    }
+    .footer-content .btn-wrapper {
+        display: none;
+    }
+    .bi-footer {
+        padding: 70px 0;
+    }
+    .bottom-footer {
+        margin-top: 40px;
+    }
+    .footer-content h4 {
+        font-size: 25px;
+    }
+    .bi-copywrite .theme-para {
+        font-size: 15px;
+    }
 }
 @media(max-width: 767px){
     .bi-hero .row {
@@ -190,6 +272,55 @@
     }
     .bi-book-resonate {
         padding: 45px 0;
+    }
+    .bi-showcase {
+        padding: 75px 0;
+    }
+    .author-wrapper {
+        gap: 10px;
+        margin-top: 40px;
+    }
+    .bi-happy-author {
+        padding: 70px 0;
+    }
+    .bi-cta .row {
+        flex-direction: column-reverse;
+    }
+    .bi-cta .theme-heading {
+        margin-top: 40px;
+    }
+    .testimonial-img {
+        padding: 0;
+    }
+    .testimonial-slider {
+        margin-top: 15px;
+    }
+    .testimonial-content img {
+        max-width: 50px;
+    }
+    .testimonial-content .theme-para {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    .bi-footer .container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .bottom-footer {
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+    .footer-content h4 {
+        font-size: 22px;
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+    .bi-copywrite .d-flex {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+    .bi-footer {
+        padding: 50px 0;
     }
 }
 @media(max-width: 575px){
@@ -252,5 +383,62 @@
     }
     .bi-book-resonate .theme-para {
         text-align: center;
+    }
+    .bi-showcase {
+        padding: 50px 0;
+    }
+    .btn-wrapper {
+        flex-wrap: wrap;
+    }
+    .pack-name {
+        font-size: 17px;
+    }
+    .pack-price {
+        font-size: 24px;
+    }
+    .pack-para {
+        font-size: 14px;
+    }
+    .pack-list {
+        font-size: 15px;
+    }
+    .author-wrapper {
+        flex-wrap: wrap;
+    }
+    .author-box img {
+        height: 280px;
+    }
+    .slick-arrow {
+        max-width: 30px;
+    }
+    .slick-prev.slick-arrow {
+        right: 80px;
+    }
+    .testimonial-content .theme-para {
+        font-size: 13px;
+    }
+    .testimonial-content h4 {
+        font-size: 15px;
+    }
+    .bi-testimonial {
+        padding: 50px 0;
+    }
+    .highlight {
+        font-size: 12px;
+    }
+    .slick-arrow {
+        bottom: -10px;
+    }
+    .bi-contact {
+        padding: 50px 0;
+    }
+    .hero-form.contact {
+        padding: 30px 15px;
+    }
+    .bi-copywrite .theme-para {
+        font-size: 13px;
+    }
+    .bottom-footer .theme-para {
+        display: none;
     }
 }
